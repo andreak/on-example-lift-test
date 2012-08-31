@@ -12,6 +12,16 @@
 		<version.scala>2.9.1</version.scala>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>sonatype_snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- Internal dependencies -->
 
