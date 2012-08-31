@@ -10,8 +10,11 @@
 <div>
 	Makkaroo!
 	<div data-lift="comet?type=CometTest">
+		<div id="cometResponse"></div>
 		<div class="cometContent">
-			<div>Click to trigger AJAX-error</div>
+			<a name="a">Click to trigger AJAX-error</a>
+			<br/>
+			<a name="b">Click to trigger AJAX-error with comet-response</a>
 		</div>
 	</div>
 </div>
